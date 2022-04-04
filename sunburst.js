@@ -264,47 +264,4 @@ async function importCsv(path) {
     console.log(data);
     let el = sunburst(data);
     console.log(el.value);
-
-
-
 })()
-
-
-
-
-function breadcrumbFunc(sequence, percentage) {
-    // breadcrumb
-    //     .selectAll("g")
-    //     .data(sequence)
-    //     .join("g")
-    //     .attr("transform", (d, i) => `translate(${i * breadcrumbWidth}, 0)`)
-    //     .append("polygon")
-    //     .attr("points", breadcrumbPoints)
-    //     .attr("fill", d => color(d.data.name))
-    //     .attr("stroke", "white")
-    //     .text(d => d.data.name);
-
-    breadcrumb
-        .selectAll("g")
-        .data(sequence)
-        .join("g")
-        .attr("transform", (d, i) => `translate(${i * breadcrumbWidth}, 0)`)
-        .append("text")
-        .attr("x", (breadcrumbWidth + 10) / 2)
-        .attr("y", 15)
-        .attr("dy", "0.35em")
-        .attr("text-anchor", "middle")
-        .attr("fill", "black")
-        .text(d =>
-            d.data.name
-        );
-
-
-    // breadcrumb
-    //     .text(percentage > 0 ? percentage + "%" : "")
-    //     .attr("x", (sequence.length + 0.5) * breadcrumbWidth)
-    //     .attr("y", breadcrumbHeight / 2)
-    //     .attr("dy", "0.35em")
-    //     .attr("text-anchor", "middle");
-
-}
