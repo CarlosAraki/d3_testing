@@ -33,7 +33,6 @@ async function importJson(path) {
     (d3.hierarchy(data)
         .sum(d => d.value)
         .sort((a, b) => b.value - a.value))
-
     chart(data)
 })()
 

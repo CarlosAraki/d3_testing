@@ -1,5 +1,5 @@
 {
- "name": "flare",
+ "name": "Bubble",
  "children": [
   {
    "name": "Pontos Positivos",
@@ -7,16 +7,21 @@
     {
      "name": "Posição Cargo",
      "children": [
-      {"name": "Independencia na tomada de decisão técnica", "value": 3},
-      {"name": "Atualização direto com o conhecimento do Time ", "value": 1},
-      {"name": "Cargo que Exige Criatividade para resolução de problemáticas", "value": 1},
-      {"name": "Cargo que Exige Liderança para resolução de conflitos - Interno e Externo", "value": 30}
+      {"name": "Independencia na tomada de decisão técnica (Voto de Minerva)", "value": 5},
+      {"name": "A princípio um cargo sem rotina", "value": 1},
+      {"name": "Cargo que Exige Criatividade para resolução de problemáticas", "value": 10},
+      {"name": "Visibilidade com o Cliente", "value": 5},
+      {"name": "Cargo que Exige jogo de resolução de conflitos/negociação - Interno e Externo", "value": 5}
      ]
     },
     {
      "name": "Posição Pessoal",
      "children": [
-      {"name": "Visibilidade externa - se a empresa vai bem influência diretamente", "value": 3}
+      {"name": "Visibilidade externa - se a empresa vai bem influência diretamente", "value": 1},
+      {"name": "Amadurecimento profissional", "value": 5},
+      {"name": "Agrega conhecimento profissional técnico", "value": 5},
+      {"name": "Agrega conhecimento profissional pessoal", "value": 5},
+      {"name": "Agrega conhecimento profissional estratégico", "value": 3}
      ]
     }
    ]
@@ -27,14 +32,21 @@
         {
          "name": "Posição Cargo",
          "children": [
-          {"name": "Se a empresa vai mal - Visibilidade Ruim", "value": 1}
-          
+          {"name": "Se a empresa vai mal - Visibilidade Ruim", "value": 1},
+          {"name": "Alta Pressão e responsabilidade ", "value": 1},
+          {"name": "Escopo atualmente bem amplo (Pouco Foco) ", "value": 1},
+          {"name": "Atrelado por enquanto atrelado ao sentimento da família em vez de dados ", "value": 5},
+          {"name": "Atuamente escopo operacional mais valioso do que em nível estratégico ", "value": 5}
          ]
         },
         {
          "name": "Posição Pessoal",
          "children": [
-          {"name": "Alta disponibilidade", "value": 1}
+          {"name": "Alta disponibilidade independente do horário (sob aviso eterno)", "value": 20},
+          {"name": "Utilização baixa de skills de nivel estratégico", "value": 10},
+          {"name": "Baixa visibilidade em MKT pessoal (perca de network)", "value": 5},
+          {"name": "Quebra de expectativa sobre o mercado", "value": 5},
+          {"name": "A pessoa Carlos é atrelada diretamente a empresa ", "value": 1}
          ]
         }
     ]
