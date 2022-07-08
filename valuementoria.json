@@ -1,0 +1,43 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "Pontos Positivos",
+   "children": [
+    {
+     "name": "Posição Cargo",
+     "children": [
+      {"name": "Independencia na tomada de decisão técnica", "value": 3},
+      {"name": "Atualização direto com o conhecimento do Time ", "value": 1},
+      {"name": "Cargo que Exige Criatividade para resolução de problemáticas", "value": 1},
+      {"name": "Cargo que Exige Liderança para resolução de conflitos - Interno e Externo", "value": 30}
+     ]
+    },
+    {
+     "name": "Posição Pessoal",
+     "children": [
+      {"name": "Visibilidade externa - se a empresa vai bem influência diretamente", "value": 3}
+     ]
+    }
+   ]
+  },
+  {
+    "name": "Pontos Negativos",
+    "children": [
+        {
+         "name": "Posição Cargo",
+         "children": [
+          {"name": "Se a empresa vai mal - Visibilidade Ruim", "value": 1}
+          
+         ]
+        },
+        {
+         "name": "Posição Pessoal",
+         "children": [
+          {"name": "Alta disponibilidade", "value": 1}
+         ]
+        }
+    ]
+   }
+ ]
+}

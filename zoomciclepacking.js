@@ -1,22 +1,22 @@
 var margin = {
-    top: 20,
+    top: 10,
     right: 20,
-    bottom: 30,
-    left: 50
+    bottom: 20,
+    left: 20
 },
-width = 500 - margin.left - margin.right,
-height = 500 - margin.top - margin.bottom;
+width = 600 - margin.left - margin.right,
+height = 350 - margin.top - margin.bottom;
 
 color = d3.scaleLinear()
     .domain([0, 5])
-    .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+    .range(["hsl(188, 100%, 50%)", "hsl(228,30%,40%)"])
     .interpolate(d3.interpolateHcl)
 
 format = d3.format(",d")
 
 
 
-const pathJson = "value2.json";
+const pathJson = "valuementoria.json";
 async function importJson(path) {
     const response = await fetch(path);
     const json = await response.json();
@@ -62,7 +62,7 @@ function chart(data){
         .on("click", (event, d) => focus !== d && (zoom(event, d), event.stopPropagation()));
   
     const label = svg.append("g")
-        .style("font", "10px sans-serif")
+        .style("font", "5px sans-serif")
         .attr("pointer-events", "none")
         .attr("text-anchor", "middle")
       .selectAll("text")
