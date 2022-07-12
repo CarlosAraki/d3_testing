@@ -1,0 +1,21 @@
+Label,PosiNeg,Cargo,Pessoal,Peso
+"""Independencia na tomada de decisão técnica (Voto de Minerva)""",1,1,2,5
+"""A princípio um cargo sem rotina""",1,1,2,1
+"""Cargo que Exige Criatividade para resolução de problemáticas""",1,1,2,10
+"""Visibilidade com o Cliente""",1,1,2,5
+"""Cargo que Exige jogo de resolução de conflitos/negociação - Interno e Externo""",1,1,2,5
+"""Visibilidade externa - se a empresa vai bem influência diretamente""",1,2,1,1
+"""Amadurecimento profissional""",1,2,1,10
+"""Agrega conhecimento profissional técnico""",1,2,1,10
+"""Agrega conhecimento profissional pessoal""",1,2,1,5
+"""Agrega conhecimento profissional estratégico""",1,2,1,3
+"""Se a empresa vai mal - Visibilidade Ruim""",2,1,2,1
+"""Alta Pressão e responsabilidade """,2,1,2,1
+"""Escopo atualmente bem amplo (Pouco Foco) """,2,1,2,1
+"""Atrelado por enquanto atrelado ao sentimento da família em vez de dados """,2,1,2,5
+"""Atuamente escopo operacional mais valioso do que em nível estratégico """,2,1,2,10
+"""Alta disponibilidade independente do horário (sob aviso eterno)""",2,2,1,10
+"""Utilização baixa de skills de nivel estratégico""",2,2,1,10
+"""Baixa visibilidade em MKT pessoal (perca de network)""",2,2,1,5
+"""Quebra de expectativa sobre o mercado""",2,2,1,5
+"""A pessoa Carlos é atrelada diretamente a empresa """,2,2,1,1
