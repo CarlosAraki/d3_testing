@@ -1,3 +1,16 @@
+/* .node circle {
+  stroke: #2cb771;
+  stroke-width: 5px;
+}*/
+.body {
+  background-color: black;
+}
+.line {
+  fill: none;
+  stroke: green;
+  stroke-width: 5px;
+} 
+
 * {
   margin: 0;
   padding: 0;
@@ -16,10 +29,34 @@ svg {
   overflow: visible;
 }
 
+
 .bubbles {
   stroke-width: 2px;
   stroke: white;
 }
 .bubbles:hover {
   stroke: black;
+}
+
+.links {
+  stroke: #fff;
+  stroke-opacity: 0.2;
+}
+
+.polygons {
+  fill: none;
+  stroke: #fff;
+}
+
+.polygons :first-child {
+  fill: #f00;
+}
+
+.sites {
+  fill: #fff;
+  stroke: #fff;
+}
+
+.sites :first-child {
+  fill: #fff;
 }
